@@ -2,7 +2,7 @@ console.log("MAGIC 8-BALL:");
 
 let answer = Math.floor(Math.random() * 10);
 
-if (answer == 0) {
+if (answer === 0) {
     console.log("It is certain.");
 } else if (answer === 1) {
     console.log("As I see it, yes.");
