@@ -1,9 +1,9 @@
 import random
 
 
-answer = (random.randrange(0, 10))
-
 print(f'"MAGIC 8-BALL:')
+
+answer = (random.randrange(0, 10))
 
 if (answer == 0):
     print("It is certain.")
